@@ -1,0 +1,25 @@
+# Site settings
+title: "The Proprietary Black Box Blog"
+description: "Exploring healthcare tools, machine learning, and transparency."
+author: "Your Name"
+baseurl: "" # Leave blank for GitHub Pages root URL
+url: "https://your-username.github.io" # Replace with your GitHub Pages URL
+theme: minima # A minimal theme, but you can change it later
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Blog settings
+permalink: /:categories/:title/
+paginate: 5
+
+# Social links (optional)
+social:
+  twitter: your_twitter_handle
+  github: your_github_username
+
+# Plugins (optional)
+plugins:
+  - jekyll-feed # Generates an RSS feed
+  - jekyll-seo-tag # Adds SEO tags for better search engine optimization
